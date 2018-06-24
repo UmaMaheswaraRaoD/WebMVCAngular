@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.dev.demo.entity.Product;
 
+/*
+ * 
+ * create restful API to manage Products
+ */
+
+
 @RestController
 public class ProductRestService
 {
@@ -27,7 +33,7 @@ public class ProductRestService
 		return productRepository.findAll(new PageRequest(page,size));
 	}
 	
-	@RequestMapping(value="/search",method=RequestMethod.GET)
+	@RequestMapping(value="/searchProducts",method=RequestMethod.GET)
 	private Page<Product> searchProduct(String keyword,
 			                            @RequestParam(name="page",defaultValue="0")int page,
 			                            @RequestParam(name="size",defaultValue="5")int size)

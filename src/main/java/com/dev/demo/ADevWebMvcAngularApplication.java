@@ -27,15 +27,15 @@ public class ADevWebMvcAngularApplication implements CommandLineRunner
 	@Override
 	public void run(String... arg0) throws Exception
 	{
-		    /*//ProductRepository repo=ctxt.getBean(ProductRepository.class);
-		    repo.save(new Product("HMT",30000,5));
-		    repo.save(new Product("Sony",24000,3));
-		    repo.save(new Product("HMT",92000,7));
+		    //ProductRepository repo=ctxt.getBean(ProductRepository.class);
+		    repo.save(new Product("Lg",2000,5));
+		    repo.save(new Product("WagonR",4000,3));
+		    repo.save(new Product("Miyani",2000,7));
 		    
 		    
 		   List<Product> listAll=repo.findAll();
 		   listAll.forEach( p -> System.out.println(p.getId()+" "+p.getDesignation()+" "+p.getPrice()+" "+p.getQuantity())); 
-		   */
+		   
 		
 	}
 }

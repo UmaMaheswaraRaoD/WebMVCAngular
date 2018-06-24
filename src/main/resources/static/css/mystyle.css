@@ -1,0 +1,12 @@
+.spacer
+{
+	margin-top: 20px;
+}
+
+.clickable
+{
+	cursor: pointer;
+}
+input.ng-dirty.ng-invalid {
+  color: red
+}
